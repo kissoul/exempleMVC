@@ -23,6 +23,7 @@ class tutoriels extends Controller{
 	}
         
         public function description($idArtiste){
+            
             $this->loadModel('Festival');
             $this->_oArtiste = $this->Festival->getArtisteById($idArtiste);
             
