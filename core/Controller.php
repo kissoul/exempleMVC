@@ -1,5 +1,8 @@
 <?php
-
+MODIF 12
+djsfidsfhgdsfg
+dsfjgiosdfg
+dsfjgiosdfg
 class Controller{
 	
 	private $aViewVars = array();
