@@ -26,6 +26,10 @@ class tutoriels extends Controller{
             echo 'test';
 	}
         
+        public function test21(){
+            echo 'test';
+	}
+        
         public function description($idArtiste){
             
             $this->loadModel('Festival');
