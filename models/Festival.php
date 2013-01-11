@@ -11,6 +11,20 @@ class Festival extends BddConnection{
 								  ':texte' => $oArtiste->getTexte));
 		
 	}
+        
+        public function insertArtisteTest($oArtiste){
+		$statement = $this->bdd->prepare("INSERT INTO `artiste` (`artiste`.`nom`, `artiste`.`textArtiste`) VALUES (:nom, :texte)");
+		$statement->execute(array(':nom' => $oArtiste->getNom(),
+								  ':texte' => $oArtiste->getTexte));
+		
+	}
+        
+        public function insertArtisteTest2($oArtiste){
+		$statement = $this->bdd->prepare("INSERT INTO `artiste` (`artiste`.`nom`, `artiste`.`textArtiste`) VALUES (:nom, :texte)");
+		$statement->execute(array(':nom' => $oArtiste->getNom(),
+								  ':texte' => $oArtiste->getTexte));
+		
+	}
 	
 	public function getArtisteById($idArtiste){
 		$statement = $this->bdd->prepare("SELECT `artiste`.`idArtiste`, `artiste`.`nomArtiste`, `artiste`.`textArtiste` FROM `artiste` WHERE `artiste`.`idArtiste` = :idArtiste");
