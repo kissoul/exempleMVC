@@ -1,6 +1,5 @@
 <?php
 
-
 class Artiste {
 	
         private $_id;

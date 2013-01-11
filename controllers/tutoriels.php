@@ -22,13 +22,17 @@ class tutoriels extends Controller{
             $this->render('index');					
 	}
         
-        public function test(){
-            echo 'test';
-	}
+        public function testNouveau(){
+            
+        }
         
-        public function test21(){
-            echo 'test';
-	}
+        public function testNouveauEncore(){
+            
+        }
+        
+        public function testNouveauEncore2(){
+            
+        }
         
         public function description($idArtiste){
             
