@@ -1,8 +1,6 @@
 <?php
-MODIF 12
-djsfidsfhgdsfg
-dsfjgiosdfg
-dsfjgiosdfg
+
+modifEclipse
 class Controller{
 	
 	private $aViewVars = array();
