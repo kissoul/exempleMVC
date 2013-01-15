@@ -20,4 +20,8 @@ abstract class BddConnection{
 		}
 		
 	}
+	
+	public function getblabla(){
+		
+	}
 }
