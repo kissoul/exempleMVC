@@ -37,7 +37,11 @@ class Artiste {
 		$this->_texte = $texte;
 	}
 	
-public function setTexte3($texte){
+	public function setTexte3($texte){
+		$this->_texte = $texte;
+	}
+	
+	public function setTexte4($texte){
 		$this->_texte = $texte;
 	}
 }

@@ -34,6 +34,14 @@ class tutoriels extends Controller{
             
         }
         
+        public function testNouveauEncore3(){
+            
+        }
+        
+		public function testNouveauEncore4(){
+            
+        }
+        
         public function description($idArtiste){
             
             $this->loadModel('Festival');
